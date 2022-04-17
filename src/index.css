@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+  }
+
+  .input {
+    @apply border-2 w-full p-1;
+  }
+
+  .btn {
+    @apply bg-blue-500 py-2 px-4 text-white font-semibold rounded-lg;
+  }
+
+  .btn-green {
+    @apply bg-lime-600 py-1 px-2;
+  }
+
+  .btn-red {
+    @apply bg-red-600 py-1 px-2;
+  }
+
+  .btn-purple {
+    @apply bg-purple-600 py-1 px-2;
+  }
+}
